@@ -9,3 +9,5 @@ _backup/
 README.md
 references/
 photos/hero.png
+node_modules/
+tests/

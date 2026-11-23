@@ -1033,7 +1033,7 @@
         modeNote.textContent =
           response.mode === 'telegram'
             ? 'Заявка мгновенно передана администратору и мастерам в Telegram. Перезвоним в ближайшее рабочее время.'
-            : 'Заявка зафиксирована в демонстрационном режиме (для живой отправки в Telegram добавьте переменные на Vercel).';
+            : 'Заявка зафиксирована в демонстрационном режиме (для живой отправки в Telegram добавьте TELEGRAM_BOT_TOKEN в настройках хостинга).';
       }
 
       const promoRow = document.getElementById('success-promo-row');

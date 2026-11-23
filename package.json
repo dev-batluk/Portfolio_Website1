@@ -1,0 +1,12 @@
+{
+  "name": "maison-eclat-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Maison Eclat landing page with Telegram broadcast booking backend",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.10"
+  }
+}
