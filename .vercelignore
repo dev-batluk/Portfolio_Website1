@@ -1,0 +1,11 @@
+backup_*/
+_backup/
+.env
+.env.*
+!.env.example
+.git/
+.gitignore
+.vercel/
+README.md
+references/
+photos/hero.png
